@@ -1,0 +1,12 @@
+datascience==0.18.1
+folium==0.20.0
+matplotlib==3.9.2
+numpy==2.2.6
+otter-grader==7.0.0
+pandas==2.2.2
+pillow==10.4.0
+plotly==7.0.0
+scipy==1.13.1
+# AFTER installing the packages above, also run:  python fix_datascience.py
+# (datascience hard-codes legacy numpy printing; that script turns it off so the
+#  course's otter checks print np.True_ / np.float64(...) the way the tests expect)
